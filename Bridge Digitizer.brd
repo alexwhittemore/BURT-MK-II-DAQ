@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2852,8 +2852,8 @@ design rules under a new name.</description>
 <wire x1="15.0622" y1="16.9882" x2="15.0622" y2="19.9136" width="0.2032" layer="16"/>
 <wire x1="15.0622" y1="19.9136" x2="24.6126" y2="19.9136" width="0.2032" layer="16"/>
 <wire x1="24.6126" y1="19.9136" x2="24.638" y2="19.939" width="0.2032" layer="16"/>
-<wire x1="20.558" y1="13.3809" x2="20.828" y2="13.335" width="0" layer="19" extent="1-1"/>
 <via x="24.638" y="19.939" extent="1-16" drill="0.6"/>
+<wire x1="20.558" y1="13.3809" x2="20.828" y2="13.335" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="FILT_OUT">
 <contactref element="IC3" pad="3"/>
@@ -2998,7 +2998,7 @@ design rules under a new name.</description>
 <wire x1="20.208" y1="19.812" x2="20.208" y2="22.649" width="0.254" layer="1"/>
 <wire x1="20.208" y1="19.812" x2="20.828" y2="19.939" width="0.762" layer="1"/>
 <wire x1="20.828" y1="19.939" x2="20.828" y2="17.526" width="0.762" layer="1"/>
-<wire x1="20.558" y1="17.6071" x2="20.828" y2="17.526" width="0" layer="19" extent="1-1"/>
+<wire x1="20.828" y1="17.526" x2="20.558" y2="17.6071" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="RG" pad="P$2"/>
